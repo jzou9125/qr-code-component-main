@@ -12,19 +12,32 @@ img {
 }
 
 body {
+  background-color: var(--light-gray);
   font-family: "Outfit", sans-serif;
   font-size: 15px;
   display: flex;
   flex-direction: column;
-  background-color: var(--light-gray);
+  align-items: center;
+  justify-content: center;
   margin: 0;
   height: 100vh;
 }
 
 .main-content {
   background-color: var(--white);
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.609);
 }
 
 .qr-code {
   margin: 3% auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
