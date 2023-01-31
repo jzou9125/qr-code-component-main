@@ -25,19 +25,39 @@ body {
 
 .main-content {
   background-color: var(--white);
-  padding: 1.25rem;
-  border-radius: 0.625rem;
+  padding: 1rem;
+  border-radius: 1.1rem;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.609);
+  margin: 1.5rem 1rem;
 }
 
-.qr-code {
-  margin: 3% auto;
+.main-content img {
+  border-radius: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.main-content h1 {
+  color: var(--dark-blue);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main-content p {
+  color: var(--grayish-blue);
+  text-align: center;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 500px) {
+  .main-content {
+    width: 400px;
+  }
 }
